@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Manzano_Exam.Models.Question>
+
+<h1>IT ELECTIVE 2 - PRE-FINAL EXAM</h1>
+
+<p><strong>Name:</strong> Manzano Alejandro L</p>
+<p><strong>Section:</strong> BSIT-31E2</p>
+
+<hr />
+
+@foreach (var question in Model)
+{
+    <div>
+        <h3>@question.Number. @question.Text</h3>
+
+        <p>A. @question.ChoiceA</p>
+        <p>B. @question.ChoiceB</p>
+        <p>C. @question.ChoiceC</p>
+        <p>D. @question.ChoiceD</p>
+
+        <p><strong>Answer: @question.Answer</strong></p>
+    </div>
+
+    <hr />
+}
