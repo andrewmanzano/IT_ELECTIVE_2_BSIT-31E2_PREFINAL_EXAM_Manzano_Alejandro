@@ -139,6 +139,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "It removes the foreign key",
                     ChoiceD = " It prevents the query from accessing the database",
                     Answer = "A"
+                },
+
+                new Question
+                {
+                    Number= 13,
+                    Text = "Whice type of validation occurs in the browser before a request is sent to the server?",
+                    ChoiceA = "Database-level-validation",
+                    ChoiceB = "Client-side-validation",
+                    ChoiceC = "Server-side-validation",
+                    ChoiceD = "EF Core migration validation",
+                    Answer = "B"
                 }
 
             };
