@@ -128,6 +128,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "To Automatically create database tables",
                     ChoiceD = "To prevent controllers from using LINQ",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 12,
+                    Text = "Consider this query:\r\n\r\nvar students = _context.Students.Include(s => s.Section).ToList();\r\n\r\nWhat is the main benefit of Include(s => s.Section)?\r\n",
+                    ChoiceA = "It loads the related section navigation property",
+                    ChoiceB = "It creates the foreign key",
+                    ChoiceC = "It removes the foreign key",
+                    ChoiceD = " It prevents the query from accessing the database",
+                    Answer = "A"
                 }
 
             };
