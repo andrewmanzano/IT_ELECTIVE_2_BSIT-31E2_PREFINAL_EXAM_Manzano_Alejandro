@@ -73,6 +73,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Index.cshtml",
                     ChoiceD = "Student.cs",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 7,
+                    Text = "A Student belongs to exactly one Section, while a Section can contain many students. What type of relationship is this?",
+                    ChoiceA = "one-to-one",
+                    ChoiceB = "One-to-Many",
+                    ChoiceC = "Many-to-Many",
+                    ChoiceD = "Many-to-One only",
+                    Answer = "B"
                 }
 
             };
