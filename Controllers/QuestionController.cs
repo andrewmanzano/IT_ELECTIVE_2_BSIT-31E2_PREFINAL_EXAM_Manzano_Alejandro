@@ -172,6 +172,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Student Number should always be the same",
                     ChoiceD = "Student Number should contain only spaces",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 16,
+                    Text = "Which is the best reason for having a database level unique constraint on StudentNumber?",
+                    ChoiceA = "It protects data integrity even if application level validation is bypassed",
+                    ChoiceB = "It makes Razor Views Render Faster",
+                    ChoiceC = "It removes the need for controllers",
+                    ChoiceD = "It automatically creates a ViewModel",
+                    Answer = "A"
                 }
 
             };
