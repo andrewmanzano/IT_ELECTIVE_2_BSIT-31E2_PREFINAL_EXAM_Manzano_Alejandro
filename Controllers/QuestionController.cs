@@ -117,6 +117,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Create a new Student",
                     ChoiceD = "Validate student input",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 11,
+                    Text = "WHy might a ViewModel be used when displaying Student and section information?",
+                    ChoiceA = "To repalce the database",
+                    ChoiceB = "To combine or shape the data specifically needed by the view",
+                    ChoiceC = "To Automatically create database tables",
+                    ChoiceD = "To prevent controllers from using LINQ",
+                    Answer = "B"
                 }
 
             };
