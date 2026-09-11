@@ -194,6 +194,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "To generate database tables",
                     ChoiceD = "To perform client-side validation",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 18,
+                    Text = "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+                    ChoiceA = "UsdeDatabase()",
+                    ChoiceB = "UseExceptionHandler()",
+                    ChoiceC = "UseValidationHandler()",
+                    ChoiceD = "UseMvcDatabase()",
+                    Answer = "B"
                 }
 
             };
