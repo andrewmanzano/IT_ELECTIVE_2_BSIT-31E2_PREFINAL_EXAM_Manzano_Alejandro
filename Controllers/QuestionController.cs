@@ -106,6 +106,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "It creates a new database",
                     ChoiceD = "It validates the student's name",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 10,
+                    Text = "What does .Include() generally allow EF Core to do?",
+                    ChoiceA = "Delete the section table",
+                    ChoiceB = "Load related section data together with Stidents",
+                    ChoiceC = "Create a new Student",
+                    ChoiceD = "Validate student input",
+                    Answer = "B"
                 }
 
             };
