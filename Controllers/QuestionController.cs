@@ -62,6 +62,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Generates EF Core models and a DbContext from an existing database",
                     ChoiceD = "Starts the MVC Application",
                     Answer = "C"
+                },
+
+                new Question
+                {
+                    Number= 6,
+                    Text = "Where is a database connection string commonly stored in an ASP.NET Core MVC application?",
+                    ChoiceA = " Program.cs only",
+                    ChoiceB = "appsettings json",
+                    ChoiceC = "Index.cshtml",
+                    ChoiceD = "Student.cs",
+                    Answer = "B"
                 }
 
             };
