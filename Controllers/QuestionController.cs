@@ -216,6 +216,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Delete student 999",
                     ChoiceD = "Create student 999 automatically",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 20,
+                    Text = "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+                    ChoiceA = "Data Integrity",
+                    ChoiceB = "HTML formatting",
+                    ChoiceC = "CSS inheritance",
+                    ChoiceD = "Razor syntax",
+                    Answer = "A"
                 }
 
             };
