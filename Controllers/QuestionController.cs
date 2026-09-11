@@ -41,6 +41,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceD = "To replace the C# compiler",
                     Answer = "C"
                 },
+
+                new Question
+                {
+                    Number = 4,
+                    Text = "Which EF Core component is primarily responsible for communicating with the database?",
+                    ChoiceA = "DbContext",
+                    ChoiceB = "DbSerView",
+                    ChoiceC = "ControllerContext",
+                    ChoiceD = "RazorContext",
+                    Answer = "A"
+                }
             };
             return View(questions);
         }
