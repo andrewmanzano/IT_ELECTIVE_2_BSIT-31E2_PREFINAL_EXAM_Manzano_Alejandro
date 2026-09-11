@@ -183,6 +183,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "It removes the need for controllers",
                     ChoiceD = "It automatically creates a ViewModel",
                     Answer = "A"
+                },
+
+                new Question
+                {
+                    Number= 17,
+                    Text = "What is the purpose of a try...catch block in a controller?",
+                    ChoiceA = "To create navaigation properties",
+                    ChoiceB = "To catch and handle exceptions that may occur during execution",
+                    ChoiceC = "To generate database tables",
+                    ChoiceD = "To perform client-side validation",
+                    Answer = "B"
                 }
 
             };
