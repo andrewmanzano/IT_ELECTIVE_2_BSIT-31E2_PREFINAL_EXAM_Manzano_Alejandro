@@ -51,7 +51,19 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "ControllerContext",
                     ChoiceD = "RazorContext",
                     Answer = "A"
+                },
+
+                new Question
+                {
+                    Number = 5,
+                    Text = "What does the following command primarily do?\r\n\r\ndotnet ef dbcontext scaffold \"ConnectionString\" Microsoft.EntityFrameworkCore.SqlServer -o Models\r\n",
+                    ChoiceA = "Deletes the database",
+                    ChoiceB = "Creates a new MVC Project",
+                    ChoiceC = "Generates EF Core models and a DbContext from an existing database",
+                    ChoiceD = "Starts the MVC Application",
+                    Answer = "C"
                 }
+
             };
             return View(questions);
         }
