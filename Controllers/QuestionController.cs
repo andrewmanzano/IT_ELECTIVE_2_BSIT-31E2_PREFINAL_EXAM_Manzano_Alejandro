@@ -161,6 +161,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Server side validaiton only works with SQLite",
                     ChoiceD = "Client side validation cannot display messages",
                     Answer = "A"
+                },
+
+                new Question
+                {
+                    Number= 15,
+                    Text = "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
+                    ChoiceA = "Student Number should always be nullable",
+                    ChoiceB = "Student Number should be unique",
+                    ChoiceC = "Student Number should always be the same",
+                    ChoiceD = "Student Number should contain only spaces",
+                    Answer = "B"
                 }
 
             };
