@@ -84,6 +84,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Many-to-Many",
                     ChoiceD = "Many-to-One only",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 8,
+                    Text = "In the following example, what is SectionId?\r\n\r\npublic int SectionId { get; set; }\r\npublic Section Section { get; set; }\r\n",
+                    ChoiceA = "Primary key of Student",
+                    ChoiceB = "Foreign key referencing Section",
+                    ChoiceC = "Navigation Property",
+                    ChoiceD = "Database connection String",
+                    Answer = "B"
                 }
 
             };
