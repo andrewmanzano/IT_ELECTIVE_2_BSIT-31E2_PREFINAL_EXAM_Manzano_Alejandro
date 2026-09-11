@@ -150,6 +150,17 @@ namespace Manzano_Exam.Controllers
                     ChoiceC = "Server-side-validation",
                     ChoiceD = "EF Core migration validation",
                     Answer = "B"
+                },
+
+                new Question
+                {
+                    Number= 14,
+                    Text = "Why is server side validation still necessary if client side validation exist?",
+                    ChoiceA = "Clint side validation can be bypassed",
+                    ChoiceB = "Client side validation automatically modifies the database",
+                    ChoiceC = "Server side validaiton only works with SQLite",
+                    ChoiceD = "Client side validation cannot display messages",
+                    Answer = "A"
                 }
 
             };
